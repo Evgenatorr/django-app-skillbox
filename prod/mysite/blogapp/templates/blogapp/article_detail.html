@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Article #{{ object.pk }} details
+{% endblock %}
+
+{% block body %}
+    <h1>Article #<strong>{{ object.pk }}</strong></h1>
+
+    <div>
+        <p>Title: {{ object.title }}</p>
+        <p>Date of publication: {{ object.pub_date }}</p>
+        <p>Author: {{ object.author.name }}</p>
+        <p>category: {{ object.category.name }}</p>
+        <div>
+            Tags in article:
+            <ul>
+                {% for tag in object.tags.all %}
+                    <li>{{ tag.name }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class='nav'>
+    <a class='nav-link' href="{% url 'blogapp:articles_list' %}">Back to articles list</a>
+    <a class='nav-link' href="{% url 'blogapp:index' %}">Главная</a>
+  </div>
+{% endblock %}

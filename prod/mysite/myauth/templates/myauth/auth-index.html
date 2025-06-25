@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Auth
+{% endblock %}
+
+
+{% block body %}
+  <h1>Auth</h1>
+
+  <div class='nav'>
+    <a class='nav-link' href="{% url 'myauth:about-me' %}">about me</a>
+    <a class='nav-link' href="{% url 'myauth:profiles_list' %}">profiles list</a>
+    <a class='nav-link' href="{% url 'myauth:register' %}">register</a>
+    <a class='nav-link' href="{% url 'myauth:login' %}">login</a>
+    <a class='nav-link' href="{% url 'myauth:cookie-get' %}">get cookie</a>
+    <a class='nav-link' href="{% url 'myauth:cookie-set' %}">set cookie</a>
+    <a class='nav-link' href="{% url 'myauth:session-set' %}">set session</a>
+    <a class='nav-link' href="{% url 'myauth:session-get' %}">get session</a>
+    <a class='nav-link' href="{% url 'shopapp:index' %}">SHOP APP</a>
+    <a class='nav-link' href="{% url 'blogapp:index' %}">BLOG</a>
+  </div>
+  <form method="post" action="{% url 'myauth:logout' %}">
+        {% csrf_token %}
+        <button class='small-btn' type="submit">logout</button>
+  </form>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% block title %}
+      Base Title
+    {% endblock %}
+  </title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link type="image/png" sizes="16x16" rel="icon" href="{% static '/favicons/icons8-fast-cart-16.png' %}">
+</head>
+<body>
+
+{% block body %}
+  Base body
+{% endblock %}
+
+</body>
+</html>

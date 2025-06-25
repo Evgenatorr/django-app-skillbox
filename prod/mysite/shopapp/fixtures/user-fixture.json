@@ -1,0 +1,74 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$QmXvV0cB4U53c7jcwulD5O$nZMgVgnJKbMaW2v4ULkjxQQHtXswQHjfaiUtHfJyc04=",
+      "last_login": "2025-05-18T06:25:00.415Z",
+      "is_superuser": true,
+      "username": "evgenator",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-29T06:44:55.218Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$UWYzQ2xWeXFITEtRV05sV3RDUWxSMQ$TMVjBQ1R5+8aDXCjld1rssEWnoWJjWmucQkIevLw79I",
+      "last_login": "2025-05-19T12:33:17.301Z",
+      "is_superuser": true,
+      "username": "Test",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-05-18T07:19:55.703Z",
+      "groups": [],
+      "user_permissions": [9]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$cVdRR0gzc3lOc1RMVlpkM0xEb0RXaQ$5z6ai5gov8O1CftdeiknNX/TDn62DdIarkShzIGOf0Y",
+      "last_login": "2025-05-18T13:57:25.778Z",
+      "is_superuser": false,
+      "username": "test2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-05-18T07:58:40Z",
+      "groups": [3],
+      "user_permissions": [4, 12, 25, 26]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$cmxGWGZjeHNxaHNDeDF4TEJMeE92Uw$YFzECg7RE5LWIj8QdlVXWvwZd7XY5p8TSyMINkXqNmQ",
+      "last_login": "2025-05-18T13:49:23.661Z",
+      "is_superuser": false,
+      "username": "test3",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-05-18T13:49:23.506Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

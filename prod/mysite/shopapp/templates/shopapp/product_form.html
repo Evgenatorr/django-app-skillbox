@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Create Product
+{% endblock %}
+
+{% block body %}
+    <h1>Create a new product</h1>
+    <div>
+        <form method="post" enctype='multipart/form-data'>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class='small-btn' type="submit">create</button>
+        </form>
+    </div>
+    <div class='nav'>
+        <a class='nav-link' href="{% url 'shopapp:products_list' %}">Back to product list</a>
+        <a class='nav-link' href="{% url 'shopapp:index' %}">Главная</a>
+    </div>
+{% endblock %}

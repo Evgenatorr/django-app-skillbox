@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Update Profile
+{% endblock %}
+
+{% block body %}
+    <h1>Update profile</h1>
+    <div>
+        <form method="post" enctype='multipart/form-data'>
+        {% csrf_token %}
+        {{ user_form.as_p }}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+        </form>
+    </div>
+    <div class='nav'>
+        <a class='nav-link' href="{% url 'myauth:profiles_details' pk=object.pk %}">Back to profile #{{ object.pk }}</a>
+        <a class='nav-link' href="{% url 'myauth:index' %}">Главная</a>
+    </div>
+{% endblock %}

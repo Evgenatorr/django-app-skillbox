@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Orders list
+{% endblock %}
+
+{% block body %}
+  <h1>Orders:</h1>
+  {% if object_list %}
+    <div>
+      {% for user in object_list %}
+        {% with orders=user.orders.all %}
+          {% if orders %}
+            <p>User <b>{{ user.username }}</b> completed the following orders:</p>
+            <ul>
+              {% for order in orders %}
+                <li><a class='nav-link' href="{% url 'shopapp:order_details' pk=order.pk %}"><p>Details order #{{ order.pk }}</p></a></li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p>User <b>{{ user.username }}</b> has no orders yet</p>
+          {% endif %}
+        {% endwith %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <h3>No orders yet</h3>
+  {% endif %}
+
+  <div class='nav'>
+    <a class='nav-link' href="{% url 'shopapp:create_order' %}">create order</a>
+    <a class='nav-link' href="{% url 'shopapp:index' %}">Главная</a>
+  </div>
+{% endblock %}

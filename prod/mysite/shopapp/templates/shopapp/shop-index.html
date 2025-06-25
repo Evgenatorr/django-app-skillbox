@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load cache %}
+
+{% block title %}
+  Shop
+{% endblock %}
+
+
+{% block body %}
+  <h1>Welcome to my shop!</h1>
+
+  <div>
+    <ul>
+      {% for name, price in products %}
+        <li>{{ name }} ({{ name|length }}) for ${{ price }}</li>
+        {% if name|length == 7 %}
+          <span>Lucky product!</span>
+        {% endif %}
+      {% empty %}
+        No products here
+      {% endfor %}
+
+    </ul>
+  </div>
+
+  <div>
+    <p>
+      You have {{ items }} cherr{{ items|pluralize:'y,ies' }}
+    </p>
+  </div>
+
+  <div>
+    Time running: {{ time_running }}
+  </div>
+
+  {% cache 100 lorem %}
+    <div>
+      {% lorem 3 p random %}
+    </div>
+  {% endcache %}
+  
+  <div class='nav'>
+    <a class='nav-link' href="{% url 'shopapp:groups_list' %}">groups list</a>
+    <a class='nav-link' href="{% url 'shopapp:products_list' %}">products list</a>
+    <a class='nav-link' href="{% url 'shopapp:orders_list' %}">orders list</a>
+    <a class='nav-link' href="{% url 'shopapp:create_order' %}">create order</a>
+    {% if perms.shopapp.add_product %}
+      <a class='nav-link' href="{% url 'shopapp:create_product' %}">create product</a>
+    {% endif %}
+    <a class='nav-link' href="{% url 'shopapp:api-root' %}">api</a>
+    <a class='nav-link' href="{% url 'shopapp:products-feed' %}">products feed</a>
+    <a class='nav-link' href="{% url 'myauth:index' %}">AUTH</a>
+    <a class='nav-link' href="{% url 'blogapp:index' %}">BLOG</a>
+  </div>
+
+{% endblock %}

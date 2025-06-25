@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load cache %}
+
+{% block title %}
+    About me
+{% endblock %}
+
+{% block body %}
+    <h1>User info</h1>
+    {% if user.is_authenticated %}
+        {% cache 300 userinfo user.username %}
+            <h2>Details</h2>
+            <div>
+                {% if user.profile.avatar %}
+                    <div>
+                        <img src="{{ user.profile.avatar.url }}" alt="Avatar">
+                    </div>
+                {% else %}
+                    <div>No avatar</div>
+                {% endif %}
+            </div>
+            <p>Username: {{ user.username }}</p>
+            <p>First name: {{ user.first_name }}</p>
+            <p>Last name: {{ user.last_name }}</p>
+            <p>Email: {{ user.email }}</p>
+            <p>Bio: {{ user.profile.bio }}</p>
+            <a class='nav-link' href="{% url 'myauth:profile_update' pk=user.profile.pk %}">Update profile</a>
+        {% endcache %}
+    {% else %}
+        <h2>User is anonymous</h2>
+    {% endif %}
+    <div class='nav'>
+        <a class='nav-link' href="{% url 'myauth:index' %}">Главная</a>
+    </div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Blog
+{% endblock %}
+
+
+{% block body %}
+  <h1>Blog</h1>
+  <div class='nav'>
+    <a class='nav-link' href="{% url 'blogapp:articles_list' %}">articles list</a>
+    <a class='nav-link' href="{% url 'blogapp:articles-feed' %}">articles feed</a>
+    <a class='nav-link' href="{% url 'myauth:index' %}">AUTH</a>
+    <a class='nav-link' href="{% url 'shopapp:index' %}">SHOP APP</a>
+  </div>
+{% endblock %}

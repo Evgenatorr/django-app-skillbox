@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Profiles List
+{% endblock %}
+
+{% block body %}
+  <h1>Profiles:</h1>
+  {% if profiles %}
+    <div>
+    {% for profile in profiles %}
+      <div>
+        <a class='nav-link' href="{% url 'myauth:profiles_details' pk=profile.pk %}"><p>Username: {{ profile.user.username }}</p></a>
+      </div>
+    {% endfor %}
+
+    </div>
+
+  {% else %}
+    <h3>No users yet</h3>
+  {% endif %}
+
+  <div class='nav'>
+    <a class='nav-link' href="{% url 'myauth:index' %}">Главная</a>
+  </div>
+{% endblock %}

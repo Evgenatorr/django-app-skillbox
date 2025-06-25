@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Profile #{{ profile.pk }}
+{% endblock %}
+
+{% block body %}
+    <h1>Profile <strong>{{ profile.user.username }}</strong></h1>
+
+    <h2>Details</h2>
+    <div>
+        {% if profile.avatar %}
+            <div>
+                <img src="{{ profile.avatar.url }}" alt="Avatar">
+            </div>
+        {% else %}
+            <div>No avatar</div>
+        {% endif %}
+    </div>
+    <p>Username: {{ profile.user.username }}</p>
+    <p>First name: {{ profile.user.first_name }}</p>
+    <p>Last name: {{ profile.user.last_name }}</p>
+    <p>Email: {{ profile.user.email }}</p>
+    <p>Bio: {{ profile.bio }}</p>
+
+    <div class='nav'>
+        {% if request.user.is_staff or request.user == profile.user %}
+            <a class='nav-link' href="{% url 'myauth:profile_update' pk=profile.pk %}">Update profile</a>
+        {% endif %}
+        <a class='nav-link' href="{% url 'myauth:profiles_list' %}">Back to profiles list</a>
+        <a class='nav-link' href="{% url 'myauth:index' %}">Главная</a>
+    </div>
+{% endblock %}

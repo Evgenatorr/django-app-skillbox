@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load cache %}
+
+{% block title %}
+    User {% firstof owner.first_name owner.username %} details
+{% endblock %}
+
+{% block body %}
+    User {% firstof owner.first_name owner.username %} details
+    <div>
+        {% if object_list %}
+            {% cache 100 orderslist owner.username %}
+                <p>Orders:</p>
+                <div>
+                    <ul>
+                        {% for order in object_list %}
+                        <a class='nav-link' href="{% url 'shopapp:order_details' pk=order.pk %}"><p> order #{{ order.pk }}</p></a>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endcache %}
+        {% else %}
+            <h3>No orders yet</h3>
+        {% endif %}
+    </div>
+    <div class='nav'>
+        <a class='nav-link' href="{% url 'shopapp:index' %}">Главная</a>
+    </div>
+{% endblock %}
