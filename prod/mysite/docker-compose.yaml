@@ -16,7 +16,7 @@ services:
                     gunicorn mysite.wsgi:application --bind 0.0.0.0:8000"
     ports: 
       - 8000:8000
-    # restart: always
+    restart: always
     logging:
       driver: loki
       options:
@@ -27,7 +27,7 @@ services:
     container_name: nginx
     working_dir: /app
     image: nginx:stable-alpine
-    # restart: always
+    restart: always
     ports:
       - "8080:80"
     volumes:
