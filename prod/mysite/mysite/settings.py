@@ -53,7 +53,8 @@ DEBUG = env('DJANGO_DEBUG') == '1'
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    '127.0.0.1'
+    '127.0.0.1',
+    '77.233.222.122'
 ] + env('DJANGO_ALLOWED_HOSTS').split(',')
 INTERNAL_IPS = [
     '127.0.0.1',
