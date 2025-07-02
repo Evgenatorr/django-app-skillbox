@@ -212,3 +212,14 @@
 2025-07-01 12:37:38,202 [INFO] shopapp.views: Rendering shop index
 2025-07-01 12:46:32,512 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
 2025-07-01 12:46:32,512 [INFO] shopapp.views: Rendering shop index
+2025-07-02 12:39:14,403 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-07-02 12:39:23,449 [WARNING] django.request: Not Found: /
+2025-07-02 12:39:23,508 [WARNING] django.request: Not Found: /favicon.ico
+2025-07-02 12:39:31,565 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-02 12:39:31,565 [INFO] shopapp.views: Rendering shop index
+2025-07-02 12:39:31,657 [WARNING] django.request: Not Found: /static/style.css
+2025-07-02 12:39:31,702 [WARNING] django.request: Not Found: /static/favicons/icons8-fast-cart-16.png
+2025-07-02 12:39:33,261 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-02 12:39:33,261 [INFO] shopapp.views: Rendering shop index
+2025-07-02 12:39:33,295 [WARNING] django.request: Not Found: /static/style.css
+2025-07-02 12:41:37,424 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
