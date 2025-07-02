@@ -8,13 +8,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends python3-dev gcc && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+RUN pip install --upgrade pip "poetry==2.0.0"
+RUN poetry config virtualenvs.create false --local
+COPY pyproject.toml poetry.lock ./
+RUN poetry install
 
-COPY requirements.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt && \
-    pip uninstall -y pip setuptools
-# pip uninstall -y pip setuptools  # Удаление ненужных компонентов после установки
 COPY . .

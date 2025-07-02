@@ -4,7 +4,7 @@ services:
     build:
       dockerfile: ./Dockerfile
     volumes: 
-      - .:/app
+      - .:/mysite
       - ./mysite/database:/app/database  
       - ./static:/app/static
       - ./static/media:/app/static/media
