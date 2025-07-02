@@ -1,0 +1,214 @@
+2025-06-29 12:54:38,651 [WARNING] django.request: Not Found: /
+2025-06-29 12:54:38,703 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 12:54:38,718 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 12:54:38,731 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 12:54:38,747 [WARNING] django.request: Not Found: /favicon.ico
+2025-06-29 12:54:42,342 [WARNING] django.request: Not Found: /
+2025-06-29 12:54:42,392 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 12:54:42,407 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 12:54:42,420 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 12:56:50,239 [WARNING] django.request: Not Found: /
+2025-06-29 12:56:50,288 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 12:56:50,303 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 12:56:50,329 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 12:56:51,291 [WARNING] django.request: Not Found: /
+2025-06-29 12:56:51,340 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 12:56:51,353 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 12:56:51,376 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 12:56:51,998 [WARNING] django.request: Not Found: /
+2025-06-29 12:56:52,042 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 12:56:52,055 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 12:56:52,069 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:04:46,133 [WARNING] django.request: Not Found: /
+2025-06-29 13:04:46,180 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:04:46,195 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:04:46,210 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:04:47,068 [WARNING] django.request: Not Found: /
+2025-06-29 13:04:47,115 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:04:47,129 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:04:47,142 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:07:00,819 [WARNING] django.request: Not Found: /
+2025-06-29 13:07:00,866 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:07:00,881 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:07:00,893 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:09:35,749 [WARNING] django.request: Not Found: /
+2025-06-29 13:09:35,799 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:09:35,813 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:09:35,826 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:09:37,670 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:09:37,697 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:09:37,718 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:09:37,735 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:09:42,910 [WARNING] django.request: Not Found: /
+2025-06-29 13:09:43,029 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:09:43,043 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:09:43,110 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:09:43,149 [WARNING] django.request: Not Found: /favicon.ico
+2025-06-29 13:24:27,796 [WARNING] django.request: Not Found: /
+2025-06-29 13:24:27,845 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:24:27,860 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:24:27,873 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:24:27,885 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:29:45,783 [WARNING] django.request: Not Found: /
+2025-06-29 13:29:45,833 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:29:45,846 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:29:45,864 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:36:47,287 [WARNING] django.request: Not Found: /
+2025-06-29 13:36:47,332 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:36:47,346 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:36:47,364 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:40:02,137 [WARNING] django.request: Not Found: /
+2025-06-29 13:40:02,179 [WARNING] django.request: Not Found: /static/debug_toolbar/js/toolbar.js
+2025-06-29 13:40:02,193 [WARNING] django.request: Not Found: /static/debug_toolbar/css/toolbar.css
+2025-06-29 13:40:02,279 [WARNING] django.request: Not Found: /static/debug_toolbar/css/print.css
+2025-06-29 13:41:55,684 [WARNING] django.request: Not Found: /
+2025-06-29 13:41:55,729 [WARNING] django.request: Not Found: /app/static/debug_toolbar/js/toolbar.js
+2025-06-29 13:41:55,743 [WARNING] django.request: Not Found: /app/static/debug_toolbar/css/toolbar.css
+2025-06-29 13:41:55,765 [WARNING] django.request: Not Found: /app/static/debug_toolbar/css/print.css
+2025-06-29 13:45:55,527 [WARNING] django.request: Not Found: /
+2025-06-29 13:45:55,591 [WARNING] django.request: Not Found: /favicon.ico
+2025-06-29 13:46:55,491 [WARNING] django.request: Not Found: /
+2025-06-29 13:47:00,224 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:47:00,224 [INFO] shopapp.views: Rendering shop index
+2025-06-29 13:47:52,086 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:47:52,086 [INFO] shopapp.views: Rendering shop index
+2025-06-29 13:48:39,988 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:48:39,988 [INFO] shopapp.views: Rendering shop index
+2025-06-29 13:54:07,794 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:54:07,794 [INFO] shopapp.views: Rendering shop index
+2025-06-29 13:54:12,003 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:54:12,003 [INFO] shopapp.views: Rendering shop index
+2025-06-29 13:58:53,926 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 13:58:53,926 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:15:39,644 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:15:39,644 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:25:16,666 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:25:16,666 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:25:17,902 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:25:17,902 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:30:43,269 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:30:43,269 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:30:44,296 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:30:44,297 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:05,355 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:05,355 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:06,918 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:06,918 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:30,040 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:30,040 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:30,825 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:30,825 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:31,567 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:31,567 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:39:58,812 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:39:58,812 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:40:00,428 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:40:00,428 [INFO] shopapp.views: Rendering shop index
+2025-06-29 14:44:30,103 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-29 14:44:30,103 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:23:37,482 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:23:37,482 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:23:43,556 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:23:43,556 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:23:43,591 [WARNING] django.request: Not Found: /static/style.css
+2025-06-30 11:23:45,104 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:23:45,104 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:23:45,137 [WARNING] django.request: Not Found: /static/style.css
+2025-06-30 11:23:59,556 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:23:59,556 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:13,945 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:13,945 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:15,032 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:15,032 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:15,369 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:15,369 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:15,677 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:15,677 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:19,082 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:19,082 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:42,504 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:42,504 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:46,164 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:46,164 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:47,009 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:47,009 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:47,621 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:47,621 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:48,004 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:48,005 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:48,184 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:48,184 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:26:48,370 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:26:48,370 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:27:30,077 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:27:30,077 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:27:37,140 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:27:37,140 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:28:39,235 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:28:39,235 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:28:47,012 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:28:47,012 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:28:51,182 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:28:51,183 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:28:55,322 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:28:55,322 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:26,712 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:26,713 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:29,760 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:29,761 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:31,728 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:31,728 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:32,428 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:32,428 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:33,155 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:33,155 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:34,228 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:34,228 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:34,568 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:34,568 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:34,787 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:34,787 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:34,959 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:34,959 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:38,260 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:38,260 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:38,586 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:38,586 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:40:40,374 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:40:40,374 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:43:00,559 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:43:00,559 [INFO] shopapp.views: Rendering shop index
+2025-06-30 11:43:03,647 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-06-30 11:43:03,647 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:20,466 [WARNING] django.request: Not Found: /
+2025-07-01 12:37:26,095 [WARNING] django.request: Not Found: /
+2025-07-01 12:37:29,935 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:29,935 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:33,282 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:33,282 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:34,444 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:34,444 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:35,156 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:35,156 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:35,660 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:35,660 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:36,119 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:36,120 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:36,569 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:36,569 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:36,974 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:36,974 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:37,286 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:37,286 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:37,517 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:37,517 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:37,707 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:37,707 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:37,873 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:37,873 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:38,038 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:38,038 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:37:38,202 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:37:38,202 [INFO] shopapp.views: Rendering shop index
+2025-07-01 12:46:32,512 [DEBUG] shopapp.views: Products for shop index [('Laptop', 1999), ('Desktop', 2999), ('Smartphone', 999)]
+2025-07-01 12:46:32,512 [INFO] shopapp.views: Rendering shop index

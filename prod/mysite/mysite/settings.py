@@ -21,33 +21,40 @@ from environ import Env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+DATABASE_DIR = BASE_DIR / 'database'
+DATABASE_DIR.mkdir(exist_ok=True)
 
 env = Env(
-    SENTRY_DSN=(str, 'DEFAULT')
+    SENTRY_DSN=(str, 'DEFAULT'),
+    DJANGO_LOGLEVEL=(str, 'INFO'),
+    LOGFILE_NAME=(str, 'log.txt'),
+    DJANGO_SECRET_KEY=(str, "django-insecure-hvxn%qq=gyw^4*o2lo1#bw0=wh#ux9s8h!=@c608arf_gz3+^7"),
+    DJANGO_DEBUG=(str, '0'),
+    DJANGO_ALLOWED_HOSTS=(str, ''),
 )
 env.read_env(os.path.join(BASE_DIR, '.env'))
 
-SENTRY_DSN = env("SENTRY_DSN")
+LOGS_DIR = BASE_DIR / 'logs'
+LOGS_DIR.mkdir(exist_ok=True)
 
-sentry_sdk.init(
-    dsn=SENTRY_DSN,
-    send_default_pii=True,
-)
-
+# sentry_sdk.init(
+#     dsn=env("SENTRY_DSN"),
+#     send_default_pii=True,
+# )
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-hvxn%qq=gyw^4*o2lo1#bw0=wh#ux9s8h!=@c608arf_gz3+^7"
+SECRET_KEY = env('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DJANGO_DEBUG') == '1'
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1'
-]
+] + env('DJANGO_ALLOWED_HOSTS').split(',')
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
@@ -126,7 +133,7 @@ LOGIN_URL = reverse_lazy("myauth:login")
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": DATABASE_DIR / "db.sqlite3",
     }
 }
 
@@ -186,14 +193,12 @@ LANGUAGES = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'uploads'
+MEDIA_ROOT = BASE_DIR / 'static' / 'media'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
@@ -216,9 +221,11 @@ SPECTACULAR_SETTINGS = {
     'SERVE_INCLUDE_SCHEMA': False
 }
 
-LOGFILE_NAME = BASE_DIR / 'log.txt'
+LOGFILE_NAME = LOGS_DIR / env('LOGFILE_NAME')
 LOGFILE_SIZE = 1 * 1024 * 1024
 LOGFILE_COUNT = 3
+
+LOGLEVEL = env("DJANGO_LOGLEVEL")
 
 LOGGING = {
     'version': 1,
@@ -246,6 +253,6 @@ LOGGING = {
             'console',
             'logfile',
         ],
-        'level': 'INFO',
+        'level': LOGLEVEL,
     },
 }
